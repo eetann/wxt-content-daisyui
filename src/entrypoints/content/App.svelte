@@ -2,7 +2,7 @@
   import Counter from "../../lib/Counter.svelte";
 </script>
 
-<div id="app" class="text-black bg-cyan-300">
+<div id="app" class="bg-base-100">
   <h1 class="text-lg">Content Script</h1>
 
   <Counter />
