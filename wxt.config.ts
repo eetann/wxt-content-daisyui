@@ -9,11 +9,5 @@ export default defineConfig({
 		version: "1.0.0",
 	},
 	srcDir: "src",
-	vite: () => ({
-		plugins: [
-			svelte({
-				configFile: path.resolve("./svelte.config.mjs"),
-			}),
-		],
-	}),
+	modules: ["@wxt-dev/module-svelte"],
 });
